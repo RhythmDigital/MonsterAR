@@ -324,6 +324,7 @@
  *
  * For more info, read the notes of this method on CC3Node.
  */
+
 -(void) updateBeforeTransform: (CC3NodeUpdatingVisitor*) visitor {
     
     //NSLog(@"in update transform");
@@ -394,7 +395,7 @@
         }
     
     
-    
+
         QCAR::Frame frame = state.getFrame();
         for (int i = 0; i < frame.getNumImages(); i++)
         {
@@ -412,6 +413,7 @@
         }
         
         QCAR::Renderer::getInstance().end();
+
     }
 }
 

@@ -25,5 +25,6 @@
 @property (nonatomic, retain) UIImage *backgroundImage;
 
 -(void) drawLineFrom:(CC3Vector)from To:(CC3Vector)to withColor:(ccColor3B)color andName:(NSString *)linename;
+-(ccResolutionType) resolutionType;
 
 @end

@@ -55,7 +55,7 @@
     if (cameraview == nil) {
         if (newBackground != nil) {
             backgroundImage = newBackground;
-            cameraview = [[CCSprite alloc] initWithTexture:[[[CCTexture2D alloc] initWithImage: backgroundImage] autorelease] rect:CGRectMake(0, 0, 640, 480)];
+            cameraview = [[CCSprite alloc] initWithTexture:[[[CCTexture2D alloc] initWithCGImage: backgroundImage.CGImage resolutionType:kCCResolutionUnknown] autorelease] rect:CGRectMake(0, 0, 640, 480)];
             
             cameraview.position = CGPointMake(self.contentSize.width/2, self.contentSize.height/2);
             
@@ -68,11 +68,10 @@
     } else {
         if (newBackground != nil) {
             backgroundImage = newBackground;
-            [cameraview setTexture: [[[CCTexture2D alloc] initWithImage: backgroundImage] autorelease]];
+            [cameraview setTexture: [[[CCTexture2D alloc] initWithCGImage: backgroundImage.CGImage resolutionType:kCCResolutionUnknown] autorelease]];
         }
     }
 }
-
 
 #pragma mark Updating layer
 

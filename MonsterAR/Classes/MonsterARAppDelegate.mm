@@ -102,7 +102,7 @@
 	[_window makeKeyAndVisible];
     
     // Init QCAR
-  
+    
     qUtils = [QCARutils getInstance];
     [qUtils addTargetName:@"Tarmac" atPath:@"Tarmac.xml"];
     CGSize arViewSize = [[UIScreen mainScreen] bounds].size;
@@ -110,7 +110,7 @@
 	
 	// Set to YES for Augmented Reality 3D overlay on device camera.
 	// This must be done after the window is made visible!
-	_viewController.isOverlayingDeviceCamera = YES;
+	//_viewController.isOverlayingDeviceCamera = YES;
 
 	
 	// ******** START OF COCOS3D SETUP CODE... ********
@@ -147,6 +147,7 @@
 	CCScene *scene = [CCScene node];
 	[scene addChild: mainLayer];
 	[CCDirector.sharedDirector runWithScene: scene];
+ 
 }
 
 /** Pause the cocos3d/cocos2d action. */
