@@ -726,16 +726,16 @@ void ccGLUniformModelViewProjectionMatrix( CCGLProgram* program )
 }
 @end
 
-
+/*
 #if __CC_PLATFORM_IOS
 @implementation EAGLView
-@end
+@end*/
 
 #elif __CC_PLATFORM_MAC
 
 @implementation MacView
 @end
 
-#endif // __CC_PLATFORM_MAC
+//#endif // __CC_PLATFORM_MAC
 
 #endif // CC_ENABLE_DEPRECATED

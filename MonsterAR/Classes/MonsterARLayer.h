@@ -12,6 +12,16 @@
 
 /** A sample application-specific CC3Layer subclass. */
 @interface MonsterARLayer : CC3Layer {
+    CCSprite *cameraview;
+    UIImage *backgroundImage;
+    CCTexture2D *cameraTex;
+    BOOL even;
 }
+
+
+@property (nonatomic, retain) UIImage *backgroundImage;
+@property (nonatomic, retain) CCTexture2D *cameraTex;
+
+-(void) updateCameraWithImage:(UIImage *)newBackground;
 
 @end

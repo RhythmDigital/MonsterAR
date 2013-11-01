@@ -100,10 +100,10 @@ enum {
 
 // Free functions
 void ccGLUniformModelViewProjectionMatrix(CCGLProgram* program) DEPRECATED_ATTRIBUTE;
-
+/*
 // Renamed classes
 DEPRECATED_ATTRIBUTE @interface EAGLView : CCGLView
-@end
+@end*/
 
 DEPRECATED_ATTRIBUTE @interface MacView : CCGLView
 @end
