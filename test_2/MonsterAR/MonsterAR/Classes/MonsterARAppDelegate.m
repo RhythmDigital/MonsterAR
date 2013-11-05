@@ -46,7 +46,7 @@
 	_viewController.supportedInterfaceOrientations = UIInterfaceOrientationMaskAll;
 	_viewController.viewShouldUseStencilBuffer = NO;		// Set to YES if using shadow volumes
 	_viewController.viewPixelSamples = 1;					// Set to 4 for antialiasing multisampling
-	
+    
 	// Create the CCDirector, set the frame rate, and attach the view.
 	CCDirector *director = CCDirector.sharedDirector;
 	director.runLoopCommon = YES;		// Improves display link integration with UIKit
@@ -102,8 +102,7 @@
 	
 	// Set to YES for Augmented Reality 3D overlay on device camera.
 	// This must be done after the window is made visible!
-//	_viewController.isOverlayingDeviceCamera = YES;
-
+	_viewController.isOverlayingDeviceCamera = YES;
 	
 	// ******** START OF COCOS3D SETUP CODE... ********
 	
@@ -134,7 +133,11 @@
 	
 	// Set the layer in the controller
 	_viewController.controlledNode = mainLayer;
-	
+    
+   // UIImagePickerController *myCamera = _viewController._deviceCameraView
+    
+    
+    
 	// Run the layer in the director
 	CCScene *scene = [CCScene node];
 	[scene addChild: mainLayer];

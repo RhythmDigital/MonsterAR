@@ -294,6 +294,8 @@
 		434E53DB1828F8AB00260048 /* fps_images-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 434E53DA1828F8AB00260048 /* fps_images-hd.png */; };
 		434E53DD1828F8AB00260048 /* fps_images-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = 434E53DC1828F8AB00260048 /* fps_images-ipadhd.png */; };
 		434E54171828FC8E00260048 /* libQCAR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 434E54161828FC8E00260048 /* libQCAR.a */; };
+		434E541A182904AE00260048 /* Tarmac.dat in Resources */ = {isa = PBXBuildFile; fileRef = 434E5418182904AE00260048 /* Tarmac.dat */; };
+		434E541B182904AE00260048 /* Tarmac.xml in Resources */ = {isa = PBXBuildFile; fileRef = 434E5419182904AE00260048 /* Tarmac.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -917,6 +919,9 @@
 		434E54121828FC8E00260048 /* WordList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordList.h; sourceTree = "<group>"; };
 		434E54131828FC8E00260048 /* WordResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordResult.h; sourceTree = "<group>"; };
 		434E54161828FC8E00260048 /* libQCAR.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libQCAR.a; sourceTree = "<group>"; };
+		434E5418182904AE00260048 /* Tarmac.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tarmac.dat; sourceTree = "<group>"; };
+		434E5419182904AE00260048 /* Tarmac.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Tarmac.xml; sourceTree = "<group>"; };
+		434E541C182904B700260048 /* Teapot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Teapot.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1849,6 +1854,8 @@
 		434E53A11828F8AB00260048 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				434E5418182904AE00260048 /* Tarmac.dat */,
+				434E5419182904AE00260048 /* Tarmac.xml */,
 				434E53A21828F8AB00260048 /* Info.plist */,
 				434E53D61828F8AB00260048 /* hello-world.pod */,
 				434E53D81828F8AB00260048 /* fps_images.png */,
@@ -1903,6 +1910,7 @@
 		434E53CC1828F8AB00260048 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				434E541C182904B700260048 /* Teapot.h */,
 				434E53CD1828F8AB00260048 /* MonsterARAppDelegate.h */,
 				434E53CE1828F8AB00260048 /* MonsterARAppDelegate.m */,
 				434E53D01828F8AB00260048 /* MonsterARLayer.h */,
@@ -2076,6 +2084,7 @@
 				434E53BD1828F8AB00260048 /* Icon-76.png in Resources */,
 				434E53931828F8AB00260048 /* CC3PureColor.fsh in Resources */,
 				434E53851828F8AA00260048 /* CC3NoTexture.fsh in Resources */,
+				434E541B182904AE00260048 /* Tarmac.xml in Resources */,
 				434E539F1828F8AB00260048 /* CC3Texturable.vsh in Resources */,
 				434E53971828F8AB00260048 /* CC3SingleTexture.fsh in Resources */,
 				434E537B1828F8AA00260048 /* CC3BumpMapTangentSpaceAlphaTest.fsh in Resources */,
@@ -2085,6 +2094,7 @@
 				434E53891828F8AA00260048 /* CC3NoTextureReflect.fsh in Resources */,
 				434E53AB1828F8AB00260048 /* Icon-40@2x.png in Resources */,
 				434E53911828F8AB00260048 /* CC3PointSpritesAlphaTest.fsh in Resources */,
+				434E541A182904AE00260048 /* Tarmac.dat in Resources */,
 				434E53B71828F8AB00260048 /* Icon-60@2x.png in Resources */,
 				434E53D71828F8AB00260048 /* hello-world.pod in Resources */,
 				434E53B51828F8AB00260048 /* Icon-60.png in Resources */,
